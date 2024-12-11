@@ -37,7 +37,7 @@ def get_time():
 
 # Function to get weather (uses OpenWeatherMap API, replace 'YOUR_API_KEY' with an actual key)
 def get_weather(city="Delhi"):
-    api_key = "4c7483b9852e6b4425adbc4c4b69d03d"  # Replace with your API key
+    api_key = "_"  # Replace with your API key
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     try:
         response = requests.get(url).json()
